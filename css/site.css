@@ -1,16 +1,22 @@
 @import url('open-iconic/font/css/open-iconic-bootstrap.min.css');
 
+@font-face {
+    font-family: 'Roboto';
+    src: url(./Roboto-Regular.ttf);
+}
+
 :root {
+    font-family: 'Roboto', sans-serif;
     --dark-purple: #31004D;
     --light-purple: #5E0492;
     --pink: #8F01B9;
     --dark-blue: #0D1130;
     --light-pink: #FF33C1;
+    --black: #000000;
 }
 
 html, body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    background-image: linear-gradient(var(--dark-purple), var(--dark-blue));
+    background-image: linear-gradient(var(--dark-purple), var(--black));
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
@@ -203,7 +209,7 @@ html, body {
 
 .project-image-count {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .portfolio-button, .portfolio-button-anchor {
@@ -317,5 +323,9 @@ html, body {
     .project-page-picture {
         width: 350px;
         height: 210px;
+    }
+
+    .project-image-count {
+        font-size: 20px;
     }
 }
