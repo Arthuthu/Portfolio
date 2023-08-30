@@ -216,6 +216,14 @@ html, body {
         color: var(--light-pink);
     }
 
+.hidden {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show {
+    opacity: 1;
+}
 
 /* Mobile */
 
