@@ -9,55 +9,114 @@
     <script defer src="../javascript/app.js"></script>
     </head>
 <body>
-    <div class="section-title">
-        Clinica
-    </div>
+    <section class="hidden">
+        <div class="section-title">
+            Clinica
+        </div>
+        
+        <div class="info-description">
+            <div class="info-paragraph">
+                Este projeto surgiu com o propósito de suprir as demandas essenciais das clínicas, possibilitando o registro detalhado das mesmas através de uma plataforma web intuitiva. Uma vez cadastrada,
+                a clínica ganha a capacidade de agendar consultas para seus pacientes de maneira eficaz e prática.
+            </div>
+            <div class="info-paragraph">
+                A interface de usuário, FrontEnd,
+                foi meticulosamente desenvolvida empregando as mais modernas tecnologias, como HTML5,
+                CSS3 e Bootstrap5, além da poderosa abordagem do Blazor. No âmbito do BackEnd,
+                o sistema foi construído utilizando uma abrangente Rest API baseada em .NetCore.
+                Dois componentes essenciais estão em uso:
+                bibliotecas dedicadas à implementação da lógica de negócios e à busca de informações no robusto banco de dados SQL Server.
+            </div>
+            <div class="info-paragraph">
+                Essa abordagem híbrida, combinando as funcionalidades do FrontEnd e BackEnd,
+                resulta em um sistema coeso e altamente funcional.
+                Através da plataforma, as clínicas podem gerenciar seu fluxo de atendimento de forma otimizada,
+                proporcionando uma experiência satisfatória tanto para elas quanto para os pacientes atendidos.
+            </div>
+        </div>
+    </section>
     
-    <div class="info-description">
-        <div class="info-paragraph">
-            Este projeto surgiu com o propósito de suprir as demandas essenciais das clínicas, possibilitando o registro detalhado das mesmas através de uma plataforma web intuitiva. Uma vez cadastrada,
-            a clínica ganha a capacidade de agendar consultas para seus pacientes de maneira eficaz e prática.
-        </div>
-        <div class="info-paragraph">
-            A interface de usuário, FrontEnd,
-            foi meticulosamente desenvolvida empregando as mais modernas tecnologias, como HTML5,
-            CSS3 e Bootstrap5, além da poderosa abordagem do Blazor. No âmbito do BackEnd,
-            o sistema foi construído utilizando uma abrangente Rest API baseada em .NetCore.
-            Dois componentes essenciais estão em uso:
-            bibliotecas dedicadas à implementação da lógica de negócios e à busca de informações no robusto banco de dados SQL Server.
-        </div>
-        <div class="info-paragraph">
-            Essa abordagem híbrida, combinando as funcionalidades do FrontEnd e BackEnd,
-            resulta em um sistema coeso e altamente funcional.
-            Através da plataforma, as clínicas podem gerenciar seu fluxo de atendimento de forma otimizada,
-            proporcionando uma experiência satisfatória tanto para elas quanto para os pacientes atendidos.
-        </div>
-    </div>
     
-    <div class="project-images-div">
-        <img src="../imgs/projects/Clinica/1.png" class="project-page-picture" />
-    </div>
-    
-    <div class="project-roller-buttons-div">
-        <div>
-            <button class="portfolio-button" @onclick=DecrementImage> Anterior </button>
+    <section class="hidden">
+        <div class="project-images-div">
+            <img src="../imgs/projects/Clinica/1.png" class="project-page-picture" />
         </div>
-        <div class="project-image-count">
-            1 / 14
+        
+        <div class="project-roller-buttons-div">
+            <div>
+                <button class="portfolio-button" @onclick=DecrementImage> Anterior </button>
+            </div>
+            <div class="project-image-count">
+                1 / 14
+            </div>
+            <div>
+                <button class="portfolio-button" @onclick=IncrementImage> Proximo </button>
+            </div>
         </div>
-        <div>
-            <button class="portfolio-button" @onclick=IncrementImage> Proximo </button>
+        
+        <div class="project-button-div">
+            <a href="https://github.com/Arthuthu/ClinicaApp" class="project-github-link">
+                Github
+            </a>
         </div>
-    </div>
-    
-    <div class="project-button-div">
-        <a href="https://github.com/Arthuthu/ClinicaApp" class="project-github-link">
-            Github
-        </a>
-    </div>
-    
-    <div class="project-button-div">
-        <a href="./index.html" class="portfolio-button-anchor">Voltar</a>
-    </div>
+        
+        <div class="project-button-div">
+            <a href="./index.html" class="portfolio-button-anchor">Voltar</a>
+        </div>
+    </section>
+
+    <section class="hidden">
+        <div class="section-title" id="contact-section">
+            Contato
+        </div>
+        <div class="contato-div">
+            <div>
+                <div class="contato-info-div">
+                    <div>
+                        <img class="contact-icon" alt="whatsapp-icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384023.png" />
+                    </div>
+                    <div class="display-flex-justify-evenly">
+                        <div class="contact-section-title">
+                            Whatsapp:
+                        </div>
+                        <div>
+                            (17) 99782-4891
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-info-div">
+                    <div>
+                        <img class="contact-icon" alt="github-icon" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" />
+                    </div>
+                    <a href="github.com/Arthuthu" class="link">
+                        Github
+                    </a>
+                </div>
+            </div>
+            <div>
+                <div class="contato-info-div">
+                    <div>
+                        <img class="contact-icon" alt="email-icon" src="https://cdn-icons-png.flaticon.com/512/542/542638.png" id="email-icon"/>
+                    </div>
+                    <div class="display-flex-justify-evenly" id="email-div">
+                        <div class="contact-section-title" id="email-section-title">
+                            Email:
+                        </div>
+                        <div>
+                            arthurgeromello@hotmail.com
+                        </div>
+                    </div>
+                </div>
+                <div class="contato-info-div">
+                    <div>
+                        <img class="contact-icon" alt="linkedin-icon" src="https://cdn-icons-png.flaticon.com/512/1384/1384014.png" />
+                    </div>
+                    <a href="https://www.linkedin.com/in/arthur-geromello-ab44a8159/" class="link">
+                        Linkedin
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
