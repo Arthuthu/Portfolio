@@ -37,20 +37,26 @@
     </section>
     
     <section class="hidden">
-        <div class="project-images-div">
-            <img src="../imgs/projects/OldPortfolio/1.png" class="project-page-picture" />
-        </div>
-        
-        <div class="project-roller-buttons-div">
-            <div>
-                <button class="portfolio-button" @onclick=DecrementImage> Anterior </button>
-            </div>
-            <div class="project-image-count">
-                1 / 5
-            </div>
-            <div>
-                <button class="portfolio-button" @onclick=IncrementImage> Proximo </button>
-            </div>
+        <div class="carousel" data-carousel>
+            <button class="carousel-button prev" data-carousel-button="prev">&#8656;</button>
+            <button class="carousel-button next" data-carousel-button="next">&#8658;</button>
+            <ul class="project-images-div" data-slides>
+                <li class="slide" data-active>
+                    <img src="../imgs//projects//OldPortfolio/1.png" class="project-page-picture" alt="Imagem projeto"/>
+                </li>
+                <li class="slide">
+                    <img src="../imgs//projects//OldPortfolio/2.png" class="project-page-picture" alt="Imagem projeto"/>
+                </li>
+                <li class="slide">
+                    <img src="../imgs//projects//OldPortfolio/3.png" class="project-page-picture" alt="Imagem projeto"/>
+                </li>
+                <li class="slide">
+                    <img src="../imgs//projects//OldPortfolio/4.png" class="project-page-picture" alt="Imagem projeto"/>
+                </li>
+                <li class="slide">
+                    <img src="../imgs//projects//OldPortfolio/5.png" class="project-page-picture" alt="Imagem projeto"/>
+                </li>
+            </ul>
         </div>
         
         <div class="project-button-div">
