@@ -8,10 +8,7 @@
 :root {
     font-family: 'Roboto', sans-serif;
     --dark-purple: #31004D;
-    --light-purple: #5E0492;
     --pink: #8F01B9;
-    --dark-blue: #0D1130;
-    --light-pink: #FF33C1;
     --black: #000000;
 }
 
@@ -239,7 +236,7 @@ html, body {
 
     .project-github-link:hover {
         transition: 500ms;
-        color: var(--light-pink);
+        color: var(--pink);
     }
 
 .project-button-div {
