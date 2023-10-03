@@ -50,10 +50,6 @@ html, body {
     width: 80%;
     margin: 20px auto;
     padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     border: 3px solid var(--pink);
     border-radius: 10px;
     font-size: 20px;
@@ -136,7 +132,6 @@ html, body {
     text-align: center;
     margin-top: 10px;
 }
-
 .project-title {
     font-weight: bold;
     font-size: 20px;
@@ -146,6 +141,7 @@ html, body {
 .index-project-picture {
     height: 331px;
     width: 672px;
+    border: solid var(--pink);
 }
 
 #contact-section {
