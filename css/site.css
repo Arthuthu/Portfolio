@@ -7,16 +7,16 @@
 
 :root {
     font-family: 'Roboto', sans-serif;
-    --dark-purple: #31004D;
-    --pink: #8F01B9;
-    --black: #000000;
+    --dark-purple: #801cbb;
+    --black: #040404;
+    --white: #FFF;
 }
 
 html, body {
-    background-image: linear-gradient(var(--dark-purple), var(--black));
+    background-color: var(--black);
     background-repeat: no-repeat;
     background-size: cover;
-    color: white;
+    color: var(--white);
     margin: 0;
 }
 
@@ -42,7 +42,7 @@ html, body {
     height: 300px;
     width: 300px;
     border-radius: 10px;
-    border: 6px solid var(--pink);
+    border: 6px solid var(--dark-purple);
     border-radius: 50%;
 }
 
@@ -50,7 +50,7 @@ html, body {
     width: 80%;
     margin: 20px auto;
     padding: 10px;
-    border: 3px solid var(--pink);
+    border: 3px solid var(--dark-purple);
     border-radius: 10px;
     font-size: 20px;
 }
@@ -64,9 +64,10 @@ html, body {
     justify-content: space-evenly;
     background-color: #FFF;
     border-radius: 10px;
-    border: 6px solid var(--pink);
-    margin: 0 30rem;
+    border: 6px solid var(--dark-purple);
+    margin: 0 auto;
     padding: 5px 0;
+    width: 70%;
 }
 
 .language-icons {
@@ -82,7 +83,7 @@ html, body {
 
 .section-div {
     padding: 0;
-    border: 6px solid var(--pink);
+    border: 6px solid var(--dark-purple);
     border-radius: 10px;
     padding-bottom: 20px;
 }
@@ -141,7 +142,7 @@ html, body {
 .index-project-picture {
     height: 331px;
     width: 672px;
-    border: solid var(--pink);
+    border: solid var(--dark-purple);
 }
 
 #contact-section {
@@ -177,7 +178,7 @@ html, body {
 
     .link:hover {
         transition: 500ms;
-        color: #D100B5;
+        color: var(--dark-purple);
     }
 
 .contact-section-title {
@@ -206,7 +207,7 @@ html, body {
     margin: 40px 0;
     color: white;
     background-color: transparent;
-    border: 6px solid var(--pink);
+    border: 6px solid var(--dark-purple);
     border-radius: 10px;
     font-weight: bold;
     font-size: 25px;
@@ -214,7 +215,7 @@ html, body {
 
     .portfolio-button:hover, .portfolio-button-anchor:hover {
         transition: 500ms;
-        color: var(--pink);
+        color: var(--dark-purple);
         background-color: #FFF;
     }
 
@@ -232,7 +233,7 @@ html, body {
 
     .project-github-link:hover {
         transition: 500ms;
-        color: var(--pink);
+        color: var(--dark-purple);
     }
 
 .project-button-div {
@@ -241,7 +242,7 @@ html, body {
 }
 
 .carousel {
-    margin-left: 15%;
+    margin: 0 auto;
     width: 1331px;
     height: 674px;
     position: relative;
@@ -326,7 +327,7 @@ html, body {
 
     .icons-div {
         flex-direction: column;
-        margin: 0 20px;
+        margin: 0 auto;
         padding: 0;
     }
 
